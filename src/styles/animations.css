@@ -1,0 +1,84 @@
+/* ===== ANIMATIONS.CSS — All @keyframes ===== */
+
+/* Phase 1 timer — blue border glow pulse */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(0,168,255,0.27); }
+  50%       { box-shadow: 0 0 24px #00A8FF; }
+}
+
+/* Phase 2 timer — border alternates red ↔ gold */
+@keyframes live-pulse {
+  0%, 100% { box-shadow: 0 0 20px #FF3B3B; border-color: #FF3B3B; }
+  50%       { box-shadow: 0 0 20px #FFD700; border-color: #FFD700; }
+}
+
+/* CharacterFloat gentle Y bobbing */
+@keyframes float-bob {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-14px); }
+}
+
+/* Super Sonic Phase 3 golden aura */
+@keyframes gold-glow {
+  0%, 100% { filter: drop-shadow(0 0 20px #FFD700) drop-shadow(0 0 40px #FF8C00); }
+  50%       { filter: drop-shadow(0 0 50px #FFD700) drop-shadow(0 0 90px #FF8C00); }
+}
+
+/* SpeedDivider background scroll */
+@keyframes speed-lines {
+  from { background-position: 0 center; }
+  to   { background-position: -200px center; }
+}
+
+/* Nav logo gold ring */
+@keyframes ring-spin {
+  to { transform: rotateY(360deg); }
+}
+
+/* Hero Sonic slides in from left */
+@keyframes sonic-entrance {
+  from { transform: translateX(-120%); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+/* Footer Sonic walks across */
+@keyframes sonic-run-footer {
+  from { left: -10%; }
+  to   { left: 110%; }
+}
+
+/* Prize pool amount glow */
+@keyframes gold-pulse {
+  0%, 100% { text-shadow: 0 0 30px #FFD700, 0 0 60px rgba(255,140,0,0.27); }
+  50%   { text-shadow: 0 0 60px #FFD700, 0 0 120px rgba(255,140,0,0.53); }
+}
+
+/* Slide in from left — timeline cards */
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-50px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Confetti rain pieces — Phase 3 */
+@keyframes confetti-fall {
+  from { transform: translateY(-100px) rotate(0deg); opacity: 1; }
+  to   { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+
+/* Slide in from right */
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(50px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Fade in up — general scroll reveal */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Sticky timer entrance */
+@keyframes sticky-enter {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
