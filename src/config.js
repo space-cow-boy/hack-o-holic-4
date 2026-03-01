@@ -14,7 +14,7 @@ export const EVENT_CONFIG = {
   totalSlots:       250,
   finaleTeams:      110,
   registrationUrl: "https://forms.google.com/YOUR_FORM_ID_HERE",
-  instagram:       "https://instagram.com/YOUR_HANDLE",
+  instagram:       "https://www.instagram.com/codev.gehu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   linkedin:        "https://linkedin.com/company/YOUR_PAGE",
 };
 
