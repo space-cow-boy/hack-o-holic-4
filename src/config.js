@@ -15,7 +15,7 @@ export const EVENT_CONFIG = {
   finaleTeams:      110,
   registrationUrl: "https://forms.google.com/YOUR_FORM_ID_HERE",
   instagram:       "https://www.instagram.com/codev.gehu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-  linkedin:        "https://linkedin.com/company/YOUR_PAGE",
+  linkedin:        "https://www.linkedin.com/company/co-dev-club/posts/?feedView=images",
 };
 
 // Image mapping — maps logical names to actual filenames in src/assets/images/
