@@ -4,7 +4,7 @@ import React from 'react';
 export default function SpeedDivider() {
   return (
     <div style={{
-      width: '100%',
+      width: '85%',
       height: '3px',
       margin: '0 auto',
       background: 'linear-gradient(90deg, transparent, var(--red-bright), var(--blue-elec), transparent)',
