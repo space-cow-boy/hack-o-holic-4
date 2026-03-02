@@ -109,12 +109,11 @@ export const STAGES = [
 ];
 
 export const TRACKS = [
-  { zone: "Green Hill Zone",     domain: "Web Development",  icon: "🌐", desc: "Build fast, scalable web apps that solve real-world problems" },
   { zone: "Chemical Plant Zone", domain: "AI / ML",          icon: "🤖", desc: "Train models and solve intelligence challenges at the cutting edge" },
-  { zone: "Sky Sanctuary",       domain: "Cloud & DevOps",   icon: "☁️", desc: "Deploy, automate, and orchestrate at scale in the cloud" },
-  { zone: "Hydrocity Zone",      domain: "Cybersecurity",    icon: "🔐", desc: "Defend the network, crack the cipher, protect the digital world" },
-  { zone: "Lava Reef Zone",      domain: "Blockchain",       icon: "⛓️", desc: "Build on decentralised infrastructure and redefine trust" },
-  { zone: "Death Egg Zone",      domain: "IoT / Hardware",   icon: "⚙️", desc: "Where code meets the physical world — sensors to solutions" },
+  { zone: "Green Hill Zone",     domain: "Open Innovation",  icon: "💡", desc: "Think beyond boundaries and create solutions that break the mold" },
+  { zone: "Hydrocity Zone",      domain: "Cyber Security",   icon: "🔐", desc: "Defend the network, crack the cipher, protect the digital world" },
+  { zone: "Death Egg Zone",      domain: "IoT",              icon: "📡", desc: "Connect devices and build smart solutions for the physical world" },
+  { zone: "Sky Sanctuary",       domain: "Cloud",            icon: "☁️", desc: "Build and deploy scalable solutions in the cloud" },
 ];
 
 export const PRIZES = {
